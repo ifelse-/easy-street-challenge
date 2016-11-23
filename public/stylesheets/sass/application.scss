@@ -75,3 +75,80 @@ body {
 .clear {
 	clear:both;
 }
+
+
+div.circle1 {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-property: all;
+    //-webkit-transition-timing-function: ease-in-out;
+    text-align: center;
+    background: #1580c3;
+    color: white;
+    border-radius: 100%;
+    padding: 20px;    
+    font-family: sans-serif;  /* Just 'cos */
+     opacity:0;
+}
+
+
+div.circle2 {
+    background: #45dec3 none repeat scroll 0 0;
+    border-radius: 100%;
+    color: white;
+    font-family: sans-serif;
+    height: 5px;
+    left: 9px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: -22px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    //transition-timing-function: ease-in-out;
+    width: 5px;
+    
+    opacity:0;
+}
+
+
+div.open {
+	top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    opacity:1;
+}
+
+div.open1 {
+    opacity:1;
+    width: 50px;
+    height: 50px;
+    left: 47px;
+    top: -22px;
+    opacity:1;
+    span {
+	   font-size: 24px;
+       line-height: 41px;
+	}
+}
+
+
+div.open2 {
+    opacity:1;
+    width: 30px;
+    height: 30px;
+    left: 47px;
+    top: -22px;
+    opacity:1;
+    span {
+	   font-size: 14px;
+       line-height: 22px;
+	}
+}
+
